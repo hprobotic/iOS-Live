@@ -7,6 +7,9 @@
 - **iOS client** - LFLiveKit(https://github.com/LaiFengiOS/LFLiveKit) to push stream
 - **IJKPlayer** - ijkplayer(https://github.com/Bilibili/ijkplayer) to play stream
 
+Very detail information published in wiki: Mobile livestream knowledge
+(https://github.com/hprobotic/iOS-Live/wiki/Mobile-livestream-knowledge)
+
 ### 1. Nginx RTMP server
 
 You need to can set up your own rtmp server, the guidance can be found here:
