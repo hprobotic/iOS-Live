@@ -2,9 +2,10 @@
 
 ### 0. Used library:
 ```
-*RTMP server* - Nginx RTMP module(https://github.com/arut/nginx-rtmp-module)
-WebSocket server - Socket.io(http://socket.io/)
-iOS client - LFLiveKit(https://github.com/LaiFengiOS/LFLiveKit) to push stream, IJKPlayer(https://github.com/Bilibili/ijkplayer) to play stream
+**RTMP server** - Nginx RTMP module(https://github.com/arut/nginx-rtmp-module)
+**WebSocket server** - Socket.io(http://socket.io/)
+**iOS client** - LFLiveKit(https://github.com/LaiFengiOS/LFLiveKit) to push stream
+**IJKPlayer** - ijkplayer(https://github.com/Bilibili/ijkplayer) to play stream
 ```
 
 ### 1. Nginx RTMP server
