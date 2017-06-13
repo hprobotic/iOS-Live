@@ -20,6 +20,16 @@
 		A214F3141EC56D2100F23103 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F3131EC56D2100F23103 /* Config.swift */; };
 		A214F3161EC56F5D00F23103 /* LiveOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F3151EC56F5D00F23103 /* LiveOverlayViewController.swift */; };
 		A214F3181EC591B400F23103 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214F3171EC591B400F23103 /* Channel.swift */; };
+		A28748131EEF9B2C00F43DBB /* WatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28748121EEF9B2C00F43DBB /* WatchViewController.swift */; };
+		A28748421EEFA99F00F43DBB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A28748411EEFA99F00F43DBB /* libz.tbd */; };
+		A28748431EEFA9A600F43DBB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28748261EEFA39800F43DBB /* AudioToolbox.framework */; };
+		A28748441EEFA9AC00F43DBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28748281EEFA3A300F43DBB /* AVFoundation.framework */; };
+		A28748451EEFA9B600F43DBB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A287482C1EEFA3B300F43DBB /* CoreMedia.framework */; };
+		A28748461EEFA9BE00F43DBB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28748361EEFA3EA00F43DBB /* MediaPlayer.framework */; };
+		A28748471EEFCAA500F43DBB /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A287483E1EEFA5E000F43DBB /* IJKMediaFramework.framework */; };
+		A28748481EEFD39900F43DBB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28748381EEFA3F300F43DBB /* OpenGLES.framework */; };
+		A28748491EEFD3A100F43DBB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A287483C1EEFA40600F43DBB /* VideoToolbox.framework */; };
+		A28748501EEFDABA00F43DBB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A287484F1EEFDABA00F43DBB /* libstdc++.tbd */; };
 		E8FAF2BD82CC4C8D86691C30 /* Pods_iLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F7887BE2090823CCFA45D7 /* Pods_iLiveTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +47,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = A214F2DF1EC566DD00F23103;
 			remoteInfo = iLive;
+		};
+		A28748631EEFDB2F00F43DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A287485D1EEFDB2F00F43DBB /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		A28748651EEFDB2F00F43DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A287485D1EEFDB2F00F43DBB /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5450B0431E63EA4300568494;
+			remoteInfo = IJKMediaFrameworkWithSSL;
+		};
+		A28748671EEFDB2F00F43DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A287485D1EEFDB2F00F43DBB /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA941B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFrameworkTests;
+		};
+		A28748691EEFDB3500F43DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A287485D1EEFDB2F00F43DBB /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E654EA891B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -65,6 +103,24 @@
 		A214F3131EC56D2100F23103 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		A214F3151EC56F5D00F23103 /* LiveOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveOverlayViewController.swift; sourceTree = "<group>"; };
 		A214F3171EC591B400F23103 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		A28748121EEF9B2C00F43DBB /* WatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchViewController.swift; sourceTree = "<group>"; };
+		A28748231EEFA2DB00F43DBB /* iLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iLive-Bridging-Header.h"; sourceTree = "<group>"; };
+		A28748261EEFA39800F43DBB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A28748281EEFA3A300F43DBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A287482A1EEFA3AB00F43DBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A287482C1EEFA3B300F43DBB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A287482E1EEFA3BC00F43DBB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A28748301EEFA3C900F43DBB /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		A28748311EEFA3C900F43DBB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A28748341EEFA3DE00F43DBB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A28748361EEFA3EA00F43DBB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A28748381EEFA3F300F43DBB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A287483A1EEFA3FC00F43DBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A287483C1EEFA40600F43DBB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		A287483E1EEFA5E000F43DBB /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A28748411EEFA99F00F43DBB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A287484F1EEFDABA00F43DBB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		A287485D1EEFDB2F00F43DBB /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = "../../../ijkplayer-ios/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj"; sourceTree = "<group>"; };
 		B6F7887BE2090823CCFA45D7 /* Pods_iLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD5B1012079ED3EA192BFCF /* Pods_iLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +130,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28748501EEFDABA00F43DBB /* libstdc++.tbd in Frameworks */,
+				A28748491EEFD3A100F43DBB /* VideoToolbox.framework in Frameworks */,
+				A28748481EEFD39900F43DBB /* OpenGLES.framework in Frameworks */,
+				A28748471EEFCAA500F43DBB /* IJKMediaFramework.framework in Frameworks */,
+				A28748461EEFA9BE00F43DBB /* MediaPlayer.framework in Frameworks */,
+				A28748451EEFA9B600F43DBB /* CoreMedia.framework in Frameworks */,
+				A28748441EEFA9AC00F43DBB /* AVFoundation.framework in Frameworks */,
+				A28748431EEFA9A600F43DBB /* AudioToolbox.framework in Frameworks */,
+				A28748421EEFA99F00F43DBB /* libz.tbd in Frameworks */,
 				3808D54CC0DA372EEF5B73CB /* Pods_iLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +165,21 @@
 		424740EB96DAFD5F189236CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A287484F1EEFDABA00F43DBB /* libstdc++.tbd */,
+				A28748411EEFA99F00F43DBB /* libz.tbd */,
+				A287483E1EEFA5E000F43DBB /* IJKMediaFramework.framework */,
+				A287483C1EEFA40600F43DBB /* VideoToolbox.framework */,
+				A287483A1EEFA3FC00F43DBB /* QuartzCore.framework */,
+				A28748381EEFA3F300F43DBB /* OpenGLES.framework */,
+				A28748361EEFA3EA00F43DBB /* MediaPlayer.framework */,
+				A28748341EEFA3DE00F43DBB /* MobileCoreServices.framework */,
+				A28748301EEFA3C900F43DBB /* libbz2.1.0.tbd */,
+				A28748311EEFA3C900F43DBB /* libbz2.tbd */,
+				A287482E1EEFA3BC00F43DBB /* CoreVideo.framework */,
+				A287482C1EEFA3B300F43DBB /* CoreMedia.framework */,
+				A287482A1EEFA3AB00F43DBB /* CoreGraphics.framework */,
+				A28748281EEFA3A300F43DBB /* AVFoundation.framework */,
+				A28748261EEFA39800F43DBB /* AudioToolbox.framework */,
 				88A9F38E9A246EFF3945A73B /* Pods_iLive.framework */,
 				B6F7887BE2090823CCFA45D7 /* Pods_iLiveTests.framework */,
 				EDD5B1012079ED3EA192BFCF /* Pods_iLiveUITests.framework */,
@@ -110,6 +190,7 @@
 		A214F2D71EC566DD00F23103 = {
 			isa = PBXGroup;
 			children = (
+				A287485D1EEFDB2F00F43DBB /* IJKMediaPlayer.xcodeproj */,
 				A214F2E21EC566DD00F23103 /* iLive */,
 				A214F2F71EC566DD00F23103 /* iLiveTests */,
 				A214F3021EC566DD00F23103 /* iLiveUITests */,
@@ -135,6 +216,7 @@
 				A214F2E31EC566DD00F23103 /* AppDelegate.swift */,
 				A214F2E51EC566DD00F23103 /* ViewController.swift */,
 				A214F3111EC567F800F23103 /* BroadcasterViewController.swift */,
+				A28748121EEF9B2C00F43DBB /* WatchViewController.swift */,
 				A214F3151EC56F5D00F23103 /* LiveOverlayViewController.swift */,
 				A214F2E71EC566DD00F23103 /* Main.storyboard */,
 				A214F3131EC56D2100F23103 /* Config.swift */,
@@ -142,6 +224,7 @@
 				A214F2EC1EC566DD00F23103 /* LaunchScreen.storyboard */,
 				A214F2EF1EC566DD00F23103 /* Info.plist */,
 				A214F3171EC591B400F23103 /* Channel.swift */,
+				A28748231EEFA2DB00F43DBB /* iLive-Bridging-Header.h */,
 			);
 			path = iLive;
 			sourceTree = "<group>";
@@ -162,6 +245,16 @@
 				A214F3051EC566DD00F23103 /* Info.plist */,
 			);
 			path = iLiveUITests;
+			sourceTree = "<group>";
+		};
+		A287485E1EEFDB2F00F43DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28748641EEFDB2F00F43DBB /* IJKMediaFramework.framework */,
+				A28748661EEFDB2F00F43DBB /* IJKMediaFrameworkWithSSL.framework */,
+				A28748681EEFDB2F00F43DBB /* IJKMediaFrameworkTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CEC5750473F2723AEFCA5B6C /* Pods */ = {
@@ -194,6 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A287486A1EEFDB3500F43DBB /* PBXTargetDependency */,
 			);
 			name = iLive;
 			productName = iLive;
@@ -255,6 +349,7 @@
 					A214F2DF1EC566DD00F23103 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 7854ND92R4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					A214F2F31EC566DD00F23103 = {
@@ -282,6 +377,12 @@
 			mainGroup = A214F2D71EC566DD00F23103;
 			productRefGroup = A214F2E11EC566DD00F23103 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A287485E1EEFDB2F00F43DBB /* Products */;
+					ProjectRef = A287485D1EEFDB2F00F43DBB /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A214F2DF1EC566DD00F23103 /* iLive */,
@@ -290,6 +391,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A28748641EEFDB2F00F43DBB /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = A28748631EEFDB2F00F43DBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A28748661EEFDB2F00F43DBB /* IJKMediaFrameworkWithSSL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFrameworkWithSSL.framework;
+			remoteRef = A28748651EEFDB2F00F43DBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A28748681EEFDB2F00F43DBB /* IJKMediaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IJKMediaFrameworkTests.xctest;
+			remoteRef = A28748671EEFDB2F00F43DBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A214F2DE1EC566DD00F23103 /* Resources */ = {
@@ -331,7 +456,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		234B2AC4F8CBD0F5A74CB779 /* [CP] Check Pods Manifest.lock */ = {
@@ -346,7 +471,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4D718C2A00B645C53888E139 /* [CP] Copy Pods Resources */ = {
@@ -376,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A202F9535ADD281976531B6C /* [CP] Copy Pods Resources */ = {
@@ -467,6 +592,7 @@
 				A214F3141EC56D2100F23103 /* Config.swift in Sources */,
 				A214F2E61EC566DD00F23103 /* ViewController.swift in Sources */,
 				A214F2E41EC566DD00F23103 /* AppDelegate.swift in Sources */,
+				A28748131EEF9B2C00F43DBB /* WatchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +624,11 @@
 			isa = PBXTargetDependency;
 			target = A214F2DF1EC566DD00F23103 /* iLive */;
 			targetProxy = A214F3001EC566DD00F23103 /* PBXContainerItemProxy */;
+		};
+		A287486A1EEFDB3500F43DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFramework;
+			targetProxy = A28748691EEFDB3500F43DBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -621,12 +752,19 @@
 			baseConfigurationReference = 90AECC172DFED5333DD5BDDD /* Pods-iLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7854ND92R4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iLive/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jp.iLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iLive/iLive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -636,12 +774,18 @@
 			baseConfigurationReference = 4E278ACB84F8D45FE2135643 /* Pods-iLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7854ND92R4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = iLive/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jp.iLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iLive/iLive-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

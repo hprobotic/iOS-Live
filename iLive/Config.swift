@@ -9,7 +9,7 @@
 import Foundation
 
 struct Config {
-    static var rtmpPushUrl = "rtmp://192.168.0.21/live/"
-    static var rtmpPlayUrl = "rtmp://192.168.0.21/live/"
-    static var serverUrl = "http://192.168.0.21:3000"
+    static var rtmpPushUrl = "rtmp://192.168.0.50/live/"
+    static var rtmpPlayUrl = "rtmp://192.168.0.50/live/"
+    static var serverUrl = "http://192.168.0.50:3000"
 }

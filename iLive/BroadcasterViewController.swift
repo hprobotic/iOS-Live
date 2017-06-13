@@ -22,6 +22,7 @@ class BroadcasterViewController: UIViewController {
     @IBOutlet weak var inputTitleOverlay: UIVisualEffectView!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var channelKey: UILabel!
+    var channelID: String = ""
     var streamOverlayController: LiveOverlayViewController!
     var channel: Channel!
     let socket = SocketIOClient(socketURL: URL(string: Config.serverUrl)!, config: [.log(true), .forceWebsockets(true)])
@@ -76,6 +77,10 @@ class BroadcasterViewController: UIViewController {
             streamOverlayController = segue.destination as! LiveOverlayViewController
             streamOverlayController.socket = socket
         }
+        if segue.identifier == "goWatchView" {
+            let toVC = segue.destination as! WatchViewController
+            toVC.channelID = self.channelID
+        }
     }
     
     func stop() {
@@ -111,6 +116,20 @@ class BroadcasterViewController: UIViewController {
         } else {
             session.captureDevicePosition = .back
         }
+    }
+    @IBAction func viewLiveButtonPressed(_ sender: Any) {
+        let alert = UIAlertController(title: "Channel ID", message: "Enter channel ID", preferredStyle: .alert)
+        alert.addTextField { (textField) in
+            textField.text = ""
+        }
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { [weak alert] (_) in
+            let textField = alert?.textFields![0]
+            guard let text = textField?.text else { return }
+            self.channelID = text
+            self.performSegue(withIdentifier: "goWatchView", sender: nil)
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
     }
     
 }
